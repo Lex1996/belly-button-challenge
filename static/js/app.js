@@ -4,7 +4,7 @@ let url = 'https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1
 function DrawBargraph(sampleId) {
     console.log(`DrawBargraph(${sampleId})`);
 
-    d3.json(url).then(data => {
+    d3.json(url).then(data => { 
         console.log(data);
 
         let samples = data.samples;
